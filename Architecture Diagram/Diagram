@@ -1,1 +1,8 @@
+1. The Formula 1 database in CSV format is imported from the Ergast API website manually into the Data Lake raw container.
+2. The data is processed using Databricks Notebooks to ingest into the ingested or the processed layer. The data in this layer will have the schema applied as well as stored in the columnar format parquet. Create partitions where applicable, as well as add additional information for audit purposes such as ingested date, source of the data, etc
+3. Ingested data will then be transformed via Azure Databricks notebooks again, and the results are stored in the presentation layer.
+4. Databricks notebooks will be used to analyze the data from the presentation layer and dashboards are created to satisfy the requirements for analysis.
+5. Then, all the notebooks is converted to produce data in Delta Lake to satisfy requirements around GDPR, time travel, and more.
+6. Azure Data Factory is used as scheduling and monitoring tool.
+![image](https://github.com/devavi/Formula-1-Project-Using-Azure--Databricks/assets/24600917/6adb256c-1a67-47a8-a4de-e189a3764da5)
 
