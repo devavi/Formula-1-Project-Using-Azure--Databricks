@@ -5,7 +5,6 @@
 5. Then, all the notebooks is converted to produce data in Delta Lake to satisfy requirements around GDPR, time travel, and more.
 6. Azure Data Factory is used as scheduling and monitoring tool.
 
-![archit](https://github.com/devavi/Formula-1-Project-Using-Azure--Databricks/assets/24600917/9f29d756-7ee5-4ff9-b5c3-6988fc64a20f)
 
 
 
