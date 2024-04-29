@@ -4,5 +4,8 @@
 4. Databricks notebooks will be used to analyze the data from the presentation layer and dashboards are created to satisfy the requirements for analysis.
 5. Then, all the notebooks is converted to produce data in Delta Lake to satisfy requirements around GDPR, time travel, and more.
 6. Azure Data Factory is used as scheduling and monitoring tool.
-![image](https://github.com/devavi/Formula-1-Project-Using-Azure--Databricks/assets/24600917/6adb256c-1a67-47a8-a4de-e189a3764da5)
+
+![archit](https://github.com/devavi/Formula-1-Project-Using-Azure--Databricks/assets/24600917/9f29d756-7ee5-4ff9-b5c3-6988fc64a20f)
+
+
 
